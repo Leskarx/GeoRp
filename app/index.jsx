@@ -1,5 +1,17 @@
 import { Text } from 'react-native';
+import { View } from 'react-native';
+import { Link } from 'expo-router';
 
 export default function Page() {
-  return <Text className=" text-blue-700">GeoRfhfxkfsdfhp</Text>;
+  return <>
+
+ <View className="justify-center items-center flex flex-1">
+ <Text className=" text-red-700">GeoRfhfxkfsdfhp</Text>
+ <Link href="/sign-in">Go to profile</Link>
+ </View>
+
+
+
+
+  </>;
 }
