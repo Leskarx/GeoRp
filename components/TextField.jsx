@@ -3,12 +3,13 @@ import React from 'react'
 
 const TextField = ({placeHolder,value,setValue}) => {
   return (
-    <View className="  items-center m-2">
+    <View className="w-full  items-center m-2">
       <TextInput 
-      className="border-2 w-[80%] rounded-2xl px-3  border-gray-300 overflow-x-auto"
+      className=" shadow-lg text-white w-[80%] bg-violet-700  rounded-2xl px-3 py-1 font-semibold overflow-x-auto"
       value={value}
         onChangeText={setValue}
       placeholder={placeHolder}
+      placeholderTextColor={'#C0C0C0'}
       />
     </View>
   )
