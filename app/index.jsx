@@ -6,8 +6,8 @@ export default function Page() {
   return <>
 
  <View className="justify-center items-center flex flex-1">
- <Text className=" text-red-700">GeoRfhfxkfsdfhp</Text>
- <Link href="/sign-up">Go to profile</Link>
+ <Text className=" text-red-700">GeoRp</Text>
+ <Link href="/profile">Check your location</Link>
  </View>
 
 

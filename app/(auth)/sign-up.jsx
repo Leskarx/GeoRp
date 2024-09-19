@@ -1,12 +1,33 @@
-import { View, Text } from 'react-native'
+import { View, Text, ImageBackground } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import PunchInButton from '../../components/PunchIn'
+import TimeComponents from '../../components/TimeComponents'
+import Icon from 'react-native-vector-icons/Ionicons';
 
 const signUp = () => {
   return (
+    <SafeAreaView className=" h-full bg-slate-300">
+      <ImageBackground className="h-[99vh]" source={require(
+        "../../assets/background.jpg"
+      )}>
+        <View  className="h-[70vh] justify-evenly   ">
+        <Icon name="reload" size={30} color="#900" /> 
 
-   <PunchInButton/>
+        <TimeComponents/>
+        <PunchInButton/>
+        <Text>
+          
+        </Text>
+
+        </View>
+
+        
+      </ImageBackground>
+
+    </SafeAreaView>
+
+ 
 
  
   )
